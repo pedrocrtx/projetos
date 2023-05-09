@@ -45,34 +45,25 @@ iframe {
 }
 
 div {
-    display: flex;
-    justify-content: right;
-    
-}
-
-ul {
-    list-style-type: none;
-    padding: 15px;
-    margin-top: 10%;
-    
-}
-
-li {
-    padding: 10px;
+    text-align: right;
 }
 
 
-#lista img {
+a img {
     height: 50px;
     width: 50px;
     border-radius: 50%;
     box-shadow: 5px 5px 5px black;
+    margin: 10px;
+
 }
 
-#lista img:hover {
-    height: 75px;
-    width: 75px;
+a img:hover {
+    height: 55px;
+    width: 55px;
+    transform: translate(-3px,-3px);
     border-radius: 50%;
     box-shadow: 5px 5px 5px black;
+    transition: height 0.5s, width 0.5s, transform 0.5s;
     
 }
