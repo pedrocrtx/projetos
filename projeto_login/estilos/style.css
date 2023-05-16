@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+/*PALETA DE CORES
+CINZA #CFCCD9
+PRETO #011C26
+AMARELO #F2DA63
+LARANJA #D97904
+VERMELHO #D93D04
+
+ICONE "LOGIN"
+<span class="material-symbols-outlined">
+login
+</span>
+
+ICONE "SENHA"
+<span class="material-symbols-outlined">
+key
+</span>
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #CFCCD9;
+    
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    width: 97vw;
+}
+
+section#img-conteudo {
+    background-color: gray;
+    height: 500px;
+    width: 286px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.334);
+}
+
+#img {
+    height: 40%;
+    width: 100%;
+    background: url('../imagens/entrance-building.jpg') center center/cover no-repeat;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+
+}
+
+#conteudo {
+    height: 60%;
+    width: 100%;
+    background-color: white;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+    font-size: small;
+}
+
+#legenda {
+    padding: 10px;
+    text-indent: 10px;
+    word-spacing: 5px;
+}
+
+.fundo-login {
+    background-color: #011C26;
+    width: 95%;
+    display: flex;
+    height: 30px;
+    padding-top: 5px;
+    margin: 0px 0px 5px 5px;
+    border-radius: 10px;
+}
+
+span {
+    height: 25px;
+    margin: 0px 5px 0px 5px;
+    padding: 0px 5px 0px 5px;
+    background-color: #D97904;
+    border-radius: 5px;
+}
+
+.email-senha {
+    height: 22px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.enviar-esqueci {
+    display: flex;
+    justify-content: center; 
+}
+
+.submit {
+    font-weight: bold;
+    height: 30px;
+    width: 95%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 2px solid #011C26;
+    background-color: #D97904 ;
+}
+
+.submit:hover {
+    background-color: #D93D04;
+}
+
+
+
+
+
+

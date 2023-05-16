@@ -4,9 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Projeto login</title>
 </head>
 <body>
-    
+    <main>
+        <section id="img-conteudo">
+            <div id="img">
+                
+            </div>
+            <div id="conteudo">
+                <div id="legenda">
+                    <h1>Login</h1>
+                    <p>
+                        Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configuraçoes no seu ambiente. 
+                    </p>
+                </div>
+         
+                
+                
+                <form action="formulario.php" method="post" autocomplete="on">
+                
+                
+                    <div class="fundo-login">
+                        <span class="material-symbols-outlined">login</span>
+                        <p>
+                            <label for="ilogin">
+                            </label>
+                            <input class="email-senha" type="email" name="login" id="ilogin" minlength="5" placeholder=" Email" autocomplete="email" required>
+                        </p>
+                    </div>
+                    <div class="fundo-login">
+                        <span class="material-symbols-outlined">key</span>
+                        <p>
+                            <label for="isenha">
+                            </label>
+                            <input class="email-senha" type="password" name="senha" id="isenha" minlength="5" placeholder=" Senha" autocomplete="current-password" required>
+                        </p>
+                    </div>
+                    <div class="enviar-esqueci">
+                        <input class="submit" value="Entrar" type="submit">
+                    </div>
+                    <div class="enviar-esqueci">
+                        <input class="submit" value="Esqueci a senha" type="submit">
+                    </div>
+                
+                
+                            
+                </form>
+                
+            </div>     
+            
+        </section>
+    </main>
 </body>
 </html>
