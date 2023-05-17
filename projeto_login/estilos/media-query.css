@@ -1,1 +1,89 @@
 @charset "UTF-8";
+
+/* 
+Pesquise sobre Typical Device Points
+-------------------------------------
+Pequenas telas: até 600px
+Celular: 600px - 768px;
+Tablet: 768px - 992px;
+Desktop: 992px - 1200px;
+Grandes telas: Ácima de 1200px;
+*/
+
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+
+    body {
+        background-image: linear-gradient(#CFCCD9, #011C26);
+    }
+    
+    section#img-conteudo {
+        display: flex;
+        height: 40%;
+        width: 85%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    
+    #img {
+        height: 100%;
+        width: 70%;
+        border-radius: 0px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    
+    #conteudo {
+        height: 100%;
+        width: 100%;
+        border-radius: 0px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    * {
+        font-size: 1.1rem;
+    }
+
+    body {
+        background-image: linear-gradient(#CFCCD9, #011C26);
+    }
+    
+    section#img-conteudo {
+        display: flex;
+        flex-direction: row-reverse;
+        height: 50%;
+        width: 85%;
+    }
+    
+    #img {
+        height: 100%;
+        width: 100%;
+        border-radius: 0px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    
+    #conteudo {
+        height: 100%;
+        width: 100%;
+        border-radius: 0px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .fundo-login {
+        width: 95%;
+        margin: 0px 0px 10px 5px;   
+    }
+
+    .enviar-esqueci {
+        display: flex;
+        justify-content: center; 
+        margin: 0px 5px 5px -5px;
+    }
+}
