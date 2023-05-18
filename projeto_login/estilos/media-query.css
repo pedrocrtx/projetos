@@ -57,7 +57,7 @@ Grandes telas: Ácima de 1200px;
         display: flex;
         flex-direction: row-reverse;
         height: 50%;
-        width: 85%;
+        width: 70%;
     }
     
     #img {
